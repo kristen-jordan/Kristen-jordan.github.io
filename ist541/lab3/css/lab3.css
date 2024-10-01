@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: #4D80B2;  
+	font-family: "Roboto", sans-serif;
+
+} 
+h1 {
+	text-align:center;
+	font-family: "Gowun Batang", serif;
+	font-weight: 700;
+	background-color:floralwhite; 
+	padding: 15px;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 grey, 0 6 px 20px 0 grey;
+	
+}
+
+h2 {
+	text-align:center;
+	font-family: "Gowun Batang", serif;
+	font-weight: 700;
+	color:darkslategrey;
+	background-color:floralwhite; 
+	border-radius: 10px;
+	border-width: 15px;
+	border-color:darkslategrey;
+	padding: 2px;
+	margin: 1px;
+	box-shadow: 0 4px 8px 0 black, 0 6 px 20px 0 grey;
+	align-items: center;
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  #464A57; 
+	color:aliceblue; 
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 white, 0 6 px 20px 0 white;
+}
+a:hover {
+	font-size:200%;
+	background-color: #80b24d; 
+	color: #464A57; 
+}
+
+
