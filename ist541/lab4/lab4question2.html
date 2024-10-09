@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lab4</title>
+<link href="css/lab4.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <style>
+                }
+    #wrapper #hover-area1 {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   #wrapper #hover-area2 {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   #wrapper #hover-area3 {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   #wrapper #hover-area4 {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+}
+   </style>
+	</head>
+
+<body>
+
+<div id="wrapper">
+  <img src="img/schnauzerFun.png" alt="Schnauzer fun graphic" width="200" border="3px indigo" id="schnauzer-img" />
+  <h4> Click the picture! </h4>
+  <h1>Meet the Miniature Schnauzer!</h1>
+	<h3>Hint: Hover over the words to learn more!</h3>
+<div class="hover-container">	
+<div id="hover-area1" class="hover-area" >
+    Beard
+</div>
+<p id="hover-text1" class="hover-text">Schnauzers are known for their beards.</p>
+<br>
+<br>
+<div id="hover-area2" class="hover-area">
+   Personality
+</div>
+<p id="hover-text2" class="hover-text">Did you know? Miniature Schnauzers are full of energy and personality!</p>
+<br>
+<br>
+<div id="hover-area3" class="hover-area">
+   Coat
+</div>
+<p id="hover-text3" class="hover-text">The breed is recognized in four colors internationally: solid black, black and silver, salt and pepper, and white.</p>
+<br>
+<br>
+<div id="hover-area4" class="hover-area">
+   Jobs
+</div>
+<p id="hover-text4" class="hover-text">Miniature Schnauzers were bred to catch rats!</p>
+
+
+</div>
+<script>
+  $(document).ready(function() {
+        // Function to toggle between hover-area and hover-text for each pair
+        $(".hover-area").hover(function() {
+            var hoverAreaId = $(this).attr('id');
+            var hoverTextId = "#hover-text" + hoverAreaId.slice(-1);
+            
+            // Hide the hover-area text and show the hover-text
+            $(this).hide();
+            $(hoverTextId).show();
+        });
+
+        // Reverse the behavior when hovering over the text
+        $(".hover-text").hover(function() {
+            var hoverTextId = $(this).attr('id');
+            var hoverAreaId = "#hover-area" + hoverTextId.slice(-1);
+
+            // Show the hover-area text and hide the hover-text
+            $(hoverAreaId).show();
+            $(this).hide();
+        });
+    });
+	
+	    $(document).ready(function() {
+        // Set the paths for both images
+        var img1 = "img/schnauzerFun.png";
+        var img2 = "img/schnauzer.JPG";
+
+        // When the image is clicked, toggle between the two images
+        $("#schnauzer-img").click(function() {
+            var currentSrc = $(this).attr("src");
+
+            // Switch the image based on the current src
+            if (currentSrc === img1) {
+                $(this).attr("src", img2);
+            } else {
+                $(this).attr("src", img1);
+            }
+        });
+    });
+</script>
+</body>
+</html>
