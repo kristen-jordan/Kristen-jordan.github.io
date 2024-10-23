@@ -205,3 +205,46 @@ a:hover {
 .classroom-setup details[open] {
     background-color: #e0f7fa;
 }
+.lesson-plan-guide, .example-lesson-plan, .lesson-plan-form {
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-plan-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-plan-form label {
+    margin-top: 10px;
+}
+
+.lesson-plan-form input, .lesson-plan-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #6A6966;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.lesson-plan-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #619828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lesson-plan-form button:hover {
+    background-color: #0056b3;
+}
+
+span {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}

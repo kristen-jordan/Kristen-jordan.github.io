@@ -31,7 +31,56 @@
 <br>
 <br>
 <br>
-	<!-- iFrame code will be added below -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxeUqyim-2g?si=FWMsiettmlKxPAyr" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your UDL Lesson Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="lesson-plan-guide">
+        <h1>Create Your UDL Lesson Plan</h1>
+        <p>Use this guide to design your lesson plan following Universal Design for Learning principles. The goal is to make your lesson inclusive and accessible to all learners by considering engagement, representation, and expression.</p>
+    </div>
+
+    <div class="example-lesson-plan">
+        <h2>Example Lesson Plan</h2>
+        <p>This is an example of a UDL-aligned lesson plan, which includes strategies for multiple means of engagement, representation, and expression.</p>
+        <img src="images/lesson_plan_example.jpg" alt="Example Lesson Plan">
+    </div>
+
+    <div class="lesson-plan-form">
+        <h2>Design Your Lesson Plan</h2>
+        <form id="lesson-plan-form">
+            <label for="lesson-title">Lesson Title:</label>
+            <input type="text" id="lesson-title" name="lesson-title" required>
+            <span id="title-feedback"></span>
+
+            <label for="objective">Learning Objective:</label>
+            <textarea id="objective" name="objective" required></textarea>
+            <span id="objective-feedback"></span>
+
+            <label for="engagement-strategy">Engagement Strategy:</label>
+            <input type="text" id="engagement-strategy" name="engagement-strategy" required>
+            <span id="engagement-feedback"></span>
+
+            <label for="representation-methods">Representation Methods:</label>
+            <input type="text" id="representation-methods" name="representation-methods" required>
+            <span id="representation-feedback"></span>
+
+            <label for="action-expression">Action & Expression:</label>
+            <input type="text" id="action-expression" name="action-expression" required>
+            <span id="expression-feedback"></span>
+
+            <button type="submit">Submit Lesson Plan</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 </body>
 </html>
