@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #4D80B2;
+    color: #333;
+} 
+h1 {
+	text-align:center;
+	font-family: "Gowun Batang", serif;
+	font-weight: 700;
+	background-color:floralwhite; 
+	padding: 15px;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 grey, 0 6 px 20px 0 grey;
+	
+}
+
+h2 {
+	text-align:center;
+	font-family: "Gowun Batang", serif;
+	font-weight: 900;
+	color:darkslategrey;
+	background-color:floralwhite; 
+	border-radius: 10px;
+	border-width: 15px;
+	border-color:darkslategrey;
+	padding: 2px;
+	margin: 1px;
+	box-shadow: 0 4px 8px 0 black, 0 6 px 20px 0 grey;
+	align-items: center;
+}
+h3 {
+	text-align:left;
+	font-family: "Gowun Batang", serif;
+	font-weight: 700;
+	color:floralwhite;
+	background-color:dimgrey;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style:solid; 
+	border-color:floralwhite;
+	padding: 5px;
+	margin: 25px;
+	box-shadow: 0 4px 8px 0 black, 0 6 px 20px 0 grey;
+	align-items:center;
+}
+a {
+	padding: 15px;
+margin: 25px;
+	font-size: 115%;
+	background-color:darkslategrey;
+	border-color: gainsboro;
+	color:floralwhite; 
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 white, 0 6 px 20px 0 white;
+}
+a:hover {
+	font-size:200%;
+	background-color: #80b24d; 
+	color: #464A57; 
+}
+.links {
+	text-align: left;
+	font-size: 125%;
+}
+.welcome-message {
+    background-color:floralwhite;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.udl-strategies {
+    background-color:floralwhite;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.udl-strategies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.strategy {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+	background-color:darkgray;
+}
+
+.strategy:hover {
+    background-color:lightgreen;
+}
+
+.udl-video {
+    background-color: floralwhite;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    display: none;
+}
+
+.strategy:hover .description {
+    display: inline;
+}
+.udl_principles ul {
+    list-style-type: none;
+    padding: 10px;
+	text-align: justify;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+ 	background-color:floralwhite;
+}
+.udl_principles {
+	background-color:lightgrey;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.resources {
+	text-align:left;
+}
+.barriers {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align:justify;
+}
+
+.barriers details {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: floralwhite;
+}
+
+.barriers details[open] {
+    background-color:lightcyan;
+	text-align:left;
+}
+
+.barriers img {
+    display:flex;
+    margin-top: 10px;
+    max-width: 25%;
+    height: auto;
+	align: center;
+}
+
+.strategies-in-action {
+    background-color: darkgrey;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.interactive-video {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.classroom-setup {
+    background-color: darkgrey;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.classroom-setup img {
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.classroom-setup details {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:antiquewhite;
+}
+
+.classroom-setup details[open] {
+    background-color: #e0f7fa;
+}
