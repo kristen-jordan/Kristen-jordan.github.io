@@ -205,7 +205,7 @@ a:hover {
 .classroom-setup details[open] {
     background-color: #e0f7fa;
 }
-.lesson-plan-guide, .example-lesson-plan, .lesson-plan-form {
+.lesson-plan-guide,  .example-lesson-plan,.lesson-plan-form {
     background-color: gainsboro;
     padding: 20px;
     margin: 20px;
