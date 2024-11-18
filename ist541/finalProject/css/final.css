@@ -53,7 +53,7 @@ h3 {
 a {
 	padding: 15px;
 margin: 25px;
-	font-size: 115%;
+	font-size: 100%;
 	background-color:darkslategrey;
 	border-color: gainsboro;
 	color:floralwhite; 
@@ -61,7 +61,7 @@ margin: 25px;
 	box-shadow: 0 4px 8px 0 white, 0 6 px 20px 0 white;
 }
 a:hover {
-	font-size:200%;
+	font-size:150%;
 	background-color: #80b24d; 
 	color: #464A57; 
 }
