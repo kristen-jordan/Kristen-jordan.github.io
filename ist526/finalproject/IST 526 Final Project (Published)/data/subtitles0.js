@@ -1,0 +1,6 @@
+(function () {
+	const subtitles = {
+			data: "WEBVTT\n\n00:00.320 --> 00:03.920\nWelcome to Teaching for Every Universal Design\n\n00:04.420 --> 00:07.760\nfor Learning and the Power of AI. In this course,\n\n00:07.840 --> 00:11.040\nyou\'ll explore the three core UDL principles\n\n00:11.120 --> 00:15.240\nand discover how to apply them in your classroom. We\'ll explore\n\n00:15.740 --> 00:20.080\nstrategies, examples, and real world applications you can put into practice\n\n00:20.580 --> 00:23.960\nright away. To move through the course, use the Next and Back\n\n00:24.460 --> 00:27.630\nbuttons at the bottom of the screen. Some slides include tabs,\n\n00:28.130 --> 00:30.430\nbuttons, or images you can click to reveal more information.\n\n00:31.070 --> 00:33.230\nBe sure to explore those before moving on.\n\n00:34.110 --> 00:37.670\nYou\'ll also see short knowledge checks along the way to help you apply\n\n00:38.170 --> 00:41.630\nwhat you\'ve learned. If you\'d like to revisit a topic at any time,\n\n00:41.789 --> 00:46.110\nyou can use the Course menu on the left to jump to a specific section.\n\n00:46.590 --> 00:49.750\nFeel free to pause, replay, or take the course at\n\n00:50.250 --> 00:50.510\nyour own pace.\n\n"
+		};
+	window["st_{48144D93-D0C1-4B04-B3F7-8E61901C4EDC}"]?.("sndAsset0", subtitles);
+})();
