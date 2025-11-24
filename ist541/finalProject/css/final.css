@@ -65,21 +65,7 @@ a:hover {
 	background-color: #80b24d; 
 	color: #464A57; 
 }
-/* Top navigation bar */
-.top-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;          /* space between links */
-    flex-wrap: wrap;    /* wrap nicely on small screens */
-    margin: 20px auto 30px auto;
-}
 
-/* Override global <a> spacing inside the nav */
-.top-nav a {
-    margin: 0;                  /* remove big outer margin */
-    padding: 10px 14px;         /* smaller padding */
-    font-size: 100%;
-}
 
 .links {
 	text-align: left;
@@ -264,3 +250,18 @@ span {
     font-size: 0.9em;
     margin-top: 5px;
 }
+.top-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns → 6 items = 3x2 grid */
+    gap: 12px;
+    max-width: 960px;
+    margin: 20px auto 30px auto;
+}
+
+/* Override global <a> spacing inside the nav */
+.top-nav a {
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
