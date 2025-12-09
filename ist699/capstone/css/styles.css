@@ -148,7 +148,7 @@ nav {
   color: var(--text-muted);
 }
 
-/* ---------- Buttons ---------- */
+/* ---------- Buttons (base) ---------- */
 .btn-primary,
 .btn-secondary {
   display: inline-flex;
@@ -233,4 +233,22 @@ footer {
   border-top: 1px solid var(--border-soft);
   font-size: 0.85rem;
   color: var(--text-muted);
+}
+
+/* ---------- Special styling ONLY for
+   "Start with Course Overview" button on Home ----------
+   Target: secondary button in hero that links to overview.html
+   (Index page) */
+.hero .btn-secondary[href="overview.html"] {
+  background-color: #C9A66B;
+  border-color: #C9A66B;
+  color: #3B3B3B;
+  font-weight: 700;
+}
+
+.hero .btn-secondary[href="overview.html"]:hover {
+  background-color: #b8915e;  /* Slightly darker hover tone */
+  border-color: #b8915e;
+  color: #3B3B3B;
+  font-weight: 700;
 }
