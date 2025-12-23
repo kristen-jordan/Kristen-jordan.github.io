@@ -2,5 +2,5 @@
 	const subtitles = {
 			data: "WEBVTT\n\n00:00.240 --> 00:03.320\nWelcome to Module three. In this module, you\'ll learn how\n\n00:03.820 --> 00:07.680\nto bring Universal Design for Learning into real lessons and instructional materials.\n\n00:08.000 --> 00:11.360\nWe\'ll look at common barriers in traditional design and explore\n\n00:11.860 --> 00:15.520\nhow UDL helps us create more flexible, accessible learning experiences.\n\n00:16.000 --> 00:19.440\nTo move through the course, use the Next and Back buttons at the bottom of\n\n00:19.940 --> 00:23.920\nthe screen. Some slides include tabs, buttons, or images\n\n00:24.420 --> 00:28.200\nyou can click to reveal more information. Be sure to explore those before\n\n00:28.700 --> 00:31.840\nmoving on. You\'ll also see short knowledge checks along the\n\n00:32.340 --> 00:36.400\nway to help you apply what you\'ve learned. If you\'d like to revisit\n\n00:36.900 --> 00:40.080\na topic at any time, you can use the Course menu on the left to\n\n00:40.580 --> 00:44.000\njump to a specific section. Feel free to pause, replay,\n\n00:44.500 --> 00:45.880\nor take the course at your own pace.\n\n"
 		};
-	window["st_{7B49728A-A5E6-4E54-9827-8CA411E496DB}"]?.("sndAsset0", subtitles);
+	window["st_{CF6A633D-88C9-4BF4-96D4-4F35CE48875A}"]?.("sndAsset0", subtitles);
 })();
